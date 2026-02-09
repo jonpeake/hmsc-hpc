@@ -18,4 +18,4 @@ Instructions for new users
 
 #. Open the `examples/basic_example/example.Rmd` notebook.
 #. Follow the step-by-step instructions and code snippets to explore the functionalities and usage of the Hmsc-HPC implementation.
-
+#. `Detailed install instruction for CSC clusters <docs/csc_install.md>`
