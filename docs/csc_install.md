@@ -225,7 +225,7 @@ python3 -c "import hmsc"
 # Final notes
 
 1. Do not run `hmsc-hpc` in the login nodes! Check how to reserve an interactive session if you just start learning `hmsc-hpc`, need reactivity or not yet ready to proceed to `sbatch` scripting.
-2. `hmsc-hpc` is designed for `tensorflow` routines being executed on GPU devices. It is still possible to run it on CPU node (e.g. for debug purpose) but the performance is expected be much worse.
-3. Try to avoid intalling major dependencies, e.g. `tensorflow` and rely on the CSC modules whenever possible. There is a fair chance that you will install the incorrect or suboptimal software version. For instance, the CUDA libraries are often problematic. Also CSC strongly disencourage major custom installations in the manner as described above for `hmsc-hpc`.
+2. `hmsc-hpc` is designed for `tensorflow` routines being executed on GPU devices. It is still possible to run it on CPU node (e.g. for debug purpose) but the performance is expected to be much worse.
+3. Try to avoid installing major dependencies, e.g. `tensorflow` and rely on the CSC modules whenever possible. There is a fair chance that you will install an incorrect or suboptimal software version. For instance, the CUDA libraries are often problematic. Also CSC strongly disencourages major custom installations in the manner as described above for `hmsc-hpc`.
 4. Nowadays, combining CSC manual webpages with some AI assistant can greatly accelerate customisation of the provided generic examples for your specific use case. 
 5. Do not hesitate to ask for advice if you feel you need it. Hmsc team can assist with common `hmsc-hpc` issues, and CSC runs weekly general user support sessions.
