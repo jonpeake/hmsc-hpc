@@ -11,7 +11,6 @@ setup(
         'pandas',
         'rdata>=1.0.0',
         'scipy',
-        'tensorflow',
         'tensorflow-probability==0.24.0',
     ]
 )
