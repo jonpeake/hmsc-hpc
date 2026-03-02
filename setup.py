@@ -12,6 +12,6 @@ setup(
         'rdata>=1.0.0',
         'scipy',
         'tensorflow',
-        'tensorflow-probability',
+        'tensorflow-probability==0.24.0',
     ]
 )
