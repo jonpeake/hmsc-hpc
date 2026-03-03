@@ -7,11 +7,11 @@ setup(
     license='GPLv3+',
     packages=find_packages(include=['hmsc', 'hmsc.*']),
     install_requires=[
-        'tf-nightly',        
+        'tf-nightly[and-cuda]',        
         'numpy',
         'pandas',
         'rdata>=1.0.0',
         'scipy',
-        'tensorflow-probability',
+        'tfp-nightly',
     ]
 )
