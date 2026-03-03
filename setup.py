@@ -7,7 +7,7 @@ setup(
     license='GPLv3+',
     packages=find_packages(include=['hmsc', 'hmsc.*']),
     install_requires=[
-        'xarray<=2025.06.1,      
+        'xarray<=2025.06.1',      
         'numpy',
         'pandas',
         'rdata>=1.0.0',
