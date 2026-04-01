@@ -25,6 +25,11 @@ def updateBetaSel(params, modelDims, modelData, rLHyperparams, dtype=tf.float64)
     wRRR = params["wRRR"]
     LambdaList = params["Lambda"]
     EtaList = params["Eta"]
+
+    if "Xeff" in params:   
+        X = params["Xeff"]
+    else:
+        X = X
         
     LRanLevelList = [None] * nr
     for r, (Eta, Lambda, rLPar) in enumerate(zip(EtaList, LambdaList, rLHyperparams)):
@@ -35,6 +40,9 @@ def updateBetaSel(params, modelDims, modelData, rLHyperparams, dtype=tf.float64)
     S = Z - sum(LRanLevelList)
 
     XeffRRR = tf.einsum("ik,hk->ih", XRRR, wRRR)
+
+    if 
+    
     if X.ndim == 2:
       Xbase = tf.concat([X, XeffRRR], axis=-1)
     else:
