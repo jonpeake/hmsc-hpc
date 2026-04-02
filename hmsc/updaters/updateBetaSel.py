@@ -41,7 +41,6 @@ def updateBetaSel(params, modelDims, modelData, rLHyperparams, dtype=tf.float64)
 
     XeffRRR = tf.einsum("ik,hk->ih", XRRR, wRRR)
 
-    if 
     
     if X.ndim == 2:
       Xbase = tf.concat([X, XeffRRR], axis=-1)
